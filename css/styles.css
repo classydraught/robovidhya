@@ -1,0 +1,51 @@
+body {
+  background-color: #2f2fa2;
+  color: aliceblue;
+  font-family: Raleway;
+}
+
+h3 {
+  color: #ff490e;
+}
+
+h2 {
+  color: #ff490e;
+}
+
+.row-header {
+  margin: 0px auto;
+  padding: 0px auto;
+}
+
+.row-content {
+  margin: 0px auto;
+  padding: 50px 0px 50px 0px;
+  border-bottom: 1px ridge;
+  min-height: 400px;
+}
+
+.footer {
+  background-color: #fd5823;
+  margin: 0px auto;
+  margin-top: 5px;
+  padding: 20px 0px 20px 0px;
+  border: 0px;
+  border-radius: 10px;
+}
+
+.jumbotron {
+  padding: 70px 30px 70px 30px;
+  margin: 0px auto;
+  background: linear-gradient(180deg, rgba(85, 61, 103, 1) 0%, #fc4c4c 30%);
+  color: floralwhite;
+}
+
+.address {
+  font-size: 80%;
+  margin: 0px;
+  color: #0f0f0f;
+}
+
+.footer a {
+  color: #2e1114;
+}
