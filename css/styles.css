@@ -1,6 +1,10 @@
 body {
   background-color: #2f2fa2;
   color: aliceblue;
+  font-family: sans-serif;
+}
+
+p {
   font-family: Raleway;
 }
 
@@ -41,11 +45,11 @@ h2 {
 }
 
 .address {
-  font-size: 80%;
+  font-size: 90%;
   margin: 0px;
   color: #0f0f0f;
 }
 
 .footer a {
-  color: #2e1114;
+  color: blue;
 }
