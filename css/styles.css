@@ -1,6 +1,17 @@
 p {
   font-family: Raleway;
 }
+body {
+  padding: 50px 0px 0px 0px;
+  z-index: 0;
+}
+nav ul li a {
+  font-family: Raleway;
+}
+
+.nav-brand a {
+  font-family: Raleway;
+}
 
 .row-header {
   margin: 0px auto;
