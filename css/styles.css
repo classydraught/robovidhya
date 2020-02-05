@@ -9,10 +9,13 @@ nav ul li a {
   font-family: Raleway;
 }
 
-.nav-brand a {
+.navbar-brand {
   font-family: Raleway;
 }
 
+.navbar-dark {
+  background-color: #512dab;
+}
 .row-header {
   margin: 0px auto;
   padding: 0px auto;
