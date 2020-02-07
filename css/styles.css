@@ -4,6 +4,7 @@ p {
 body {
   padding: 50px 0px 0px 0px;
   z-index: 0;
+  background-color: #5cdb95;
 }
 nav ul li a {
   font-family: Raleway;
@@ -13,12 +14,16 @@ nav ul li a {
   font-family: Raleway;
 }
 
-.navbar-dark {
-  background-color: #512dab;
+.navbar-light {
+  background-color: white;
 }
 .row-header {
   margin: 0px auto;
   padding: 0px auto;
+}
+
+.nav-link {
+  color: black;
 }
 
 .row-content {
@@ -39,8 +44,8 @@ nav ul li a {
 .jumbotron {
   padding: 70px 30px 70px 30px;
   margin: 0px auto;
-  background: #9575cd;
-  color: floralwhite;
+  background: white;
+  color: black;
 }
 
 .address {
