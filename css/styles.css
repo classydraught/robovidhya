@@ -4,8 +4,17 @@ p {
 body {
   padding: 50px 0px 0px 0px;
   z-index: 0;
-  background-color: #5cdb95;
+  background: rgb(238, 255, 65);
+  background: linear-gradient(
+    126deg,
+    rgba(238, 255, 65, 1) 26%,
+    rgba(178, 255, 89, 1) 44%,
+    rgba(198, 255, 0, 1) 59%,
+    rgba(255, 255, 0, 1) 79%
+  );
+  font-family: Raleway;
 }
+
 nav ul li a {
   font-family: Raleway;
 }
@@ -26,19 +35,46 @@ nav ul li a {
   color: black;
 }
 
-.row-content {
+.row-header h1 {
+  font-weight: bold;
+}
+
+.row-content,
+.row-card {
   margin: 0px auto;
   padding: 50px 0px 50px 0px;
   border-bottom: 1px ridge;
   min-height: 400px;
 }
 
+.row-card {
+  min-height: auto;
+}
+
+.card-header,
+.btn-card {
+  background: rgb(238, 255, 65);
+  background: linear-gradient(
+    126deg,
+    rgba(238, 255, 65, 1) 0%,
+    rgba(255, 255, 0, 1) 100%
+  );
+  margin-bottom: 1.5rem;
+}
+
+.btn-card {
+  margin-bottom: 0;
+  text-align: center;
+  font-weight: 800;
+}
+
 .footer {
-  background-color: #d1c4e9;
+  background-color: #ffff8d;
   margin: 0px auto;
-  margin-top: 5px;
+  margin-top: 0px;
   padding: 20px 0px 20px 0px;
   border: 0px;
+  font-weight: 700;
 }
 
 .jumbotron {
