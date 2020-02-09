@@ -49,6 +49,7 @@ nav ul li a {
 
 .row-card {
   min-height: auto;
+  padding: 20px 0px 20px 0px;
 }
 
 .card-header,
